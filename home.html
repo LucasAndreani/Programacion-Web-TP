@@ -1,0 +1,62 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitPal</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="details-input">
+      <div class="logo">
+        <a href="index.html"><img src='images/fpal.webp' class="logo-icon"></a>
+      </div>
+      <h2>Profile Details</h2>
+      <div class="di-w">
+          <h4>Birthday</h4>
+          <select id="day" name="day">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+          <select id="month" name="month">
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+          </select>
+          <select id="year" name="year">
+            <option value="1985">1985</option>
+            <option value="1986">1986</option>
+            <option value="1987">1987</option>  
+          </select>
+        </div>
+        <div class="di-h">
+          <h4>Height</h4>
+          <div class="di-wrap">
+            <h5>ft</h5>
+            <input type="height" id="height" name="height" required>
+          </div>
+          <div class="di-wrap">
+            <h5>in</h5>
+            <input type="height" id="height" name="height" required>
+          </div>
+          <h5 class="or">or</h5>
+          <div class="di-wrap">
+            <h5>cm</h5>
+            <input type="height" id="height" name="height" required>
+          </div>
+        </div>
+      <div class="di-w">
+        <h4>Weight</h4>
+        <input type="weight" id="weight" name="weight" required> 
+        <div class="toggle">
+          <button class="toggle-button">lbs</button>
+          <button class="toggle-button">kg</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
